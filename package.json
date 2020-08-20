@@ -1,0 +1,16 @@
+{
+  "name": "my-webpack",
+  "version": "1.0.0",
+  "description": "webpack lesson 01",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack --mode production --config scripts/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo Chow (caoxingres@foxmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
