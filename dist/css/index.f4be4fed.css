@@ -1,0 +1,28 @@
+body {
+  background-color: #fff;
+}
+h1 {
+  background: url(/images/logo.jpg) no-repeat;
+}
+.root {
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+::-moz-placeholder {
+  color: yellowgreen;
+}
+:-ms-input-placeholder {
+  color: yellowgreen;
+}
+::-ms-input-placeholder {
+  color: yellowgreen;
+}
+::placeholder {
+  color: yellowgreen;
+}
+
